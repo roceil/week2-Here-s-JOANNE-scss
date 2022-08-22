@@ -81,9 +81,11 @@ body {
 
 .social_icon_list {
   display: flex;
+  margin: 0 -8px;
+  justify-content: center;
 }
 .social_icon_list li {
-  margin-right: 16px;
+  padding: 0 8px;
 }
 
 .h2 {
@@ -97,6 +99,10 @@ body {
 
 .mb-0 {
   margin-bottom: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
 }
 
 .mb-16 {
